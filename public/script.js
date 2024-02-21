@@ -18,7 +18,7 @@ async function initializeNameSelector() {
     items.forEach((item) => {
       const option = document.createElement("option");
       option.value = item.name;
-      option.textContent = item.name;
+      option.textContent = item.code;
       nameSelector.appendChild(option);
     });
   } catch (error) {
@@ -36,14 +36,14 @@ async function addRowBySelectedName() {
       const tableBody = document
         .getElementById("myTable")
         .getElementsByTagName("tbody")[0];
-      const rowIndex = tableBody.rows.length + 1; // Получение порядкового номера строки
       const newRow = tableBody.insertRow();
 
-      addCell(newRow, rowIndex); // Здесь мы добавляем порядковый номер строки
-      addCell(newRow, item.name);
-      //   addCell(newRow, item.tvalue);
-      addCellWithImage(newRow, item.image);
-      addCell(newRow, item.description, true); // Предполагаем, что описание содержит HTML
+      addCell(newRow, tableBody.rows.length); // Номер строки
+      addCell(newRow, item.code); // Код
+      addCell(newRow, item.name); // Имя
+      addCellWithImage(newRow, item.image); // Изображение
+      addCell(newRow, item.tValue); // Тех цінність
+      addCell(newRow, item.description, true); // Описание с HTML
     } else {
       alert("Выбранный элемент не найден в данных.");
     }

@@ -66,7 +66,8 @@ button {
 }
 
 img {
-  max-width: 100px;
+  max-width: 180px;
+  min-width: 160px;
   height: auto;
 }
 
@@ -74,3 +75,17 @@ select {
   padding: 5px;
   margin-right: 5px;
 }
+
+/* Новые классы для управления шириной колонок */
+.column-narrow {
+  width: 10px;
+  text-align: center;
+} /* Узкая колонка */
+.column-medium {
+  width: 50px;
+  text-align: center;
+} /* Средняя колонка */
+.column-wide {
+  width: 180px;
+  text-align: center;
+} /* Широкая колонка */
