@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+#fullOption {
+  margin: 5% 10% 10% 10%;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.info-item label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.info-value {
+  display: inline-block;
+  min-width: 200px;
+  padding: 5px;
+  border: 1px dashed black; /* Пунктирная рамка как на изображении */
+  background-color: yellow; /* Жёлтый фон */
+}
+
+#myTable {
+  width: 98%;
+  border-collapse: collapse;
+  margin: 1%;
+}
+
+#myTable,
+#myTable th,
+#myTable td {
+  border: 1px solid black;
+}
+
+#myTable th,
+#myTable td {
+  padding: 8px;
+  text-align: left;
+}
+
+#myTable th {
+  background-color: #f2f2f2;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#myTable tr:hover {
+  background-color: #e8e8e8;
+}
+
+button {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+select {
+  padding: 5px;
+  margin-right: 5px;
+}
