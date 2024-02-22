@@ -43,7 +43,7 @@ async function addRowBySelectedName() {
       addCell(newRow, item.name); // Имя
       addCellWithImage(newRow, item.image); // Изображение
       addCell(newRow, item.tValue); // Тех цінність
-      addCell(newRow, item.description, true); // Описание с HTML
+      addCell(newRow, item.description.join(" "), true); // Описание с HTML
     } else {
       alert("Выбранный элемент не найден в данных.");
     }
@@ -66,7 +66,7 @@ function addCellWithImage(row, imagePath) {
   const imgElement = document.createElement("img");
   imgElement.src = imagePath;
   imgElement.alt = "Image";
-  imgElement.style.width = "100px"; // Установите желаемый размер изображения
+  imgElement.style.width = "150px"; // Установите желаемый размер изображения
   cellImage.appendChild(imgElement);
 }
 
