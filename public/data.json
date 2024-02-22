@@ -346,7 +346,7 @@
   },
   {
     "id": 26,
-    "code": " ",
+    "code": "Кідьце ДГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -356,11 +356,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-dg.jpg"
   },
   {
     "id": 27,
-    "code": " ",
+    "code": "Кідьце ДС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -370,11 +370,67 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ds.jpg"
+  },
+  {
+    "id": 28,
+    "code": "Кідьце ДБ",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/hoop/hoop-db.jpg"
+  },
+  {
+    "id": 29,
+    "code": "Кідьце ДД",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/hoop/hoop-dd.jpg"
+  },
+  {
+    "id": 30,
+    "code": "Кідьце АГ",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/hoop/hoop-ag.jpg"
+  },
+  {
+    "id": 31,
+    "code": "Кідьце АС",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/hoop/hoop-as.jpg"
   },
   {
     "id": 5,
-    "code": " ",
+    "code": "Кідьце АБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -384,11 +440,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ab.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 32,
+    "code": "Кідьце АД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -398,11 +454,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ad.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 33,
+    "code": "Кідьце НГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -412,11 +468,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ng.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 34,
+    "code": "Кідьце НС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -426,11 +482,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ns.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 35,
+    "code": "Кідьце НБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -440,11 +496,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-nb.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 36,
+    "code": "Кідьце НД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -454,11 +510,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-nd.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 37,
+    "code": "Кідьце ПГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -468,11 +524,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-pg.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 38,
+    "code": "Кідьце ПС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -482,11 +538,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ps.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 39,
+    "code": "Кідьце ПБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -496,11 +552,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-pb.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 40,
+    "code": "Кідьце ПД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -510,11 +566,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-pd.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 41,
+    "code": "Кідьце ЕГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -524,11 +580,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-eg.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 42,
+    "code": "Кідьце ЕС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -538,11 +594,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-es.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 43,
+    "code": "Кідьце ЕБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -552,11 +608,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-eb.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 44,
+    "code": "Кідьце ЕД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -566,11 +622,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/hoop/hoop-ed.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 45,
+    "code": "Полотна ДГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -580,11 +636,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-dg.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 46,
+    "code": "Полотна ДC",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -594,11 +650,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ds.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 47,
+    "code": "Полотна ДБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -608,11 +664,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-db.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 48,
+    "code": "Полотна ДД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -622,11 +678,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-dd.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 49,
+    "code": "Полотна АГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -636,11 +692,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ag.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 50,
+    "code": "Полотна АС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -650,11 +706,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-as.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 51,
+    "code": "Полотна АБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -664,11 +720,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ab.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 52,
+    "code": "Полотна АД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -678,11 +734,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ad.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 53,
+    "code": "Полотна НГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -692,11 +748,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ng.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 54,
+    "code": "Полотна НС",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -706,11 +762,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-ns.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 55,
+    "code": "Полотна НБ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -720,11 +776,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-nb.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 56,
+    "code": "Полотна НД",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -734,11 +790,11 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-nd.jpg"
   },
   {
-    "id": 5,
-    "code": " ",
+    "id": 57,
+    "code": "Полотна ПГ",
     "name": " ",
     "tValue": "1",
     "description": [
@@ -748,6 +804,104 @@
       "<p><b>Положення ніг:</b> </p>",
       "<p><b>Утримання:</b> </p>"
     ],
-    "image": "/images/pole/pole-dk.jpg"
+    "image": "/images/silk/silk-pg.jpg"
+  },
+  {
+    "id": 58,
+    "code": "Полотна ПС",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-ps.jpg"
+  },
+  {
+    "id": 59,
+    "code": "Полотна ПБ",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-pb.jpg"
+  },
+  {
+    "id": 60,
+    "code": "Полотна ПД",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-pd.jpg"
+  },
+  {
+    "id": 61,
+    "code": "Полотна ЕГ",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-eg.jpg"
+  },
+  {
+    "id": 62,
+    "code": "Полотна ЕС",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-es.jpg"
+  },
+  {
+    "id": 63,
+    "code": "Полотна ЕБ",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-eb.jpg"
+  },
+  {
+    "id": 64,
+    "code": "Полотна ЕД",
+    "name": " ",
+    "tValue": "1",
+    "description": [
+      "<p><b>Положення тіла:</b> </p>",
+      "<p><b>Точки зчеплення:</b> </p>",
+      "<p><b>Положення рук/хват:</b> </p>",
+      "<p><b>Положення ніг:</b> </p>",
+      "<p><b>Утримання:</b> </p>"
+    ],
+    "image": "/images/silk/silk-ed.jpg"
   }
 ]

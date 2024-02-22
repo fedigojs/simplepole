@@ -1,29 +1,47 @@
 // script.js
-document.addEventListener("DOMContentLoaded", initializeNameSelector);
+document.addEventListener("DOMContentLoaded", async function () {
+  await filterNamesByDirection(); // Это заполнит nameSelector при загрузке
+  document
+    .getElementById("direction")
+    .addEventListener("change", filterNamesByDirection);
+});
 
 async function fetchJsonData() {
   const response = await fetch("/data.json");
   return await response.json();
 }
 
-async function initializeNameSelector() {
-  try {
-    const items = await fetchJsonData();
-    const nameSelector = document.getElementById("nameSelector");
+// Фильтрация и обновление списка nameSelector на основе выбранного направления
+async function filterNamesByDirection() {
+  const selectedDirection = document.getElementById("direction").value;
+  const items = await fetchJsonData();
+  const nameSelector = document.getElementById("nameSelector");
+  nameSelector.innerHTML = ""; // Очистка текущих опций
 
-    // Очистка текущих опций
-    nameSelector.innerHTML = "";
-
-    // Заполнение выпадающего списка именами из JSON
-    items.forEach((item) => {
-      const option = document.createElement("option");
-      option.value = item.name;
-      option.textContent = item.code;
-      nameSelector.appendChild(option);
-    });
-  } catch (error) {
-    console.error("Ошибка при инициализации селектора имен:", error);
+  let filteredItems;
+  // Определите промежутки ID для каждого направления
+  switch (selectedDirection) {
+    case "id1": // Пілон
+      filteredItems = items.filter((item) => item.id >= 1 && item.id <= 25);
+      break;
+    case "id2": // Кільце
+      filteredItems = items.filter((item) => item.id >= 26 && item.id <= 44);
+      break;
+    case "id3": // Полотна
+      filteredItems = items.filter((item) => item.id >= 45 && item.id <= 64);
+      break;
+    default:
+      console.error("Невідомий напрямок:", selectedDirection);
+      return;
   }
+
+  // Заполнение выпадающего списка отфильтрованными позициями
+  filteredItems.forEach((item) => {
+    const option = document.createElement("option");
+    option.value = item.name;
+    option.textContent = item.code; // Используйте поле, которое вы хотите отобразить
+    nameSelector.appendChild(option);
+  });
 }
 
 async function addRowBySelectedName() {
@@ -79,52 +97,4 @@ function removeLastRow() {
   } else {
     alert("В таблице нет строк для удаления.");
   }
-}
-
-async function generatePDF() {
-  const { jsPDF } = window.jspdf;
-
-  const doc = new jsPDF();
-  doc.text("Информация:", 10, 10);
-
-  // Добавление информации о Name, Division, Category
-  doc.text(
-    `Name: ${document.getElementById("name").textContent || ""}`,
-    10,
-    20
-  );
-  doc.text(
-    `Division: ${document.getElementById("division").textContent || ""}`,
-    10,
-    30
-  );
-  doc.text(
-    `Category: ${document.getElementById("category").textContent || ""}`,
-    10,
-    40
-  );
-
-  // Теперь добавим таблицу
-  // Заметьте: Для сложных таблиц с библиотекой jsPDF может потребоваться использовать плагин 'autotable'
-  // Если у вас сложная таблица с множеством столбцов или стилей, рассмотрите использование autotable
-
-  // Простой способ добавления таблицы - это ручное добавление каждой ячейки
-  const table = document.getElementById("myTable");
-  const headers = Array.from(table.querySelectorAll("th")).map(
-    (th) => th.textContent
-  );
-  const rows = Array.from(table.querySelectorAll("tbody tr")).map((tr) =>
-    Array.from(tr.querySelectorAll("td")).map((td) => td.textContent)
-  );
-
-  // Добавление заголовков таблицы
-  doc.text(headers.join(" "), 10, 50);
-
-  // Добавление строк таблицы
-  rows.forEach((row, i) => {
-    doc.text(row.join(" "), 10, 60 + i * 10);
-  });
-
-  // Сохранение документа
-  doc.save("document.pdf");
 }

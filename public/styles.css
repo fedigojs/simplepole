@@ -42,7 +42,7 @@ body {
   min-width: 200px;
   padding: 5px;
   border: 1px dashed black; /* Пунктирная рамка как на изображении */
-  background-color: yellow; /* Жёлтый фон */
+  background-color: yellow;
 }
 
 #myTable {
@@ -88,9 +88,16 @@ img {
 }
 
 select {
+  width: 150px;
+  padding: 8px 12px;
+  margin-bottom: 0px; /* Отступ снизу для отделения от следующих элементов */
+  border: 1px solid #ccc; /* Граница */
+  border-radius: 4px; /* Скругление углов */
+  background-color: #fff; /* Белый фон */
+  font-size: 18px; /* Размер шрифта */
+  color: #333; /* Цвет текста */
   padding: 5px;
   margin-right: 5px;
-  font-size: larger;
 }
 
 /* Новые классы для управления шириной колонок */
@@ -110,4 +117,36 @@ select {
 } /* Широкая колонка */
 .column-description {
   min-width: 550px;
+}
+
+/* Стили для метки */
+label[for="direction"] {
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Стили для выпадающего списка */
+
+#direction {
+  width: 200px;
+  padding: 8px 12px;
+  margin-top: -28px; /* Отступ снизу для отделения от следующих элементов */
+  margin-left: 100px; /* Отступ снизу для отделения от следующих элементов */
+  border: 1px dashed black; /* Граница */
+  border-radius: 0px;
+  background-color: yellow;
+  font-size: 16px; /* Размер шрифта */
+  color: #333; /* Цвет текста */
+}
+
+/* Стили для опций выпадающего списка */
+option {
+  padding: 10px; /* Поле вокруг текста */
+}
+
+/* Стиль при наведении на опции выпадающего списка (для браузеров, поддерживающих эту функцию) */
+option:hover {
+  background-color: #f3f3f3;
 }
