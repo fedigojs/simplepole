@@ -70,6 +70,17 @@ function addCellWithImage(row, imagePath) {
   cellImage.appendChild(imgElement);
 }
 
+function removeLastRow() {
+  const tableBody = document
+    .getElementById("myTable")
+    .getElementsByTagName("tbody")[0];
+  if (tableBody.rows.length > 0) {
+    tableBody.deleteRow(-1); // Удаляет последнюю строку таблицы
+  } else {
+    alert("В таблице нет строк для удаления.");
+  }
+}
+
 async function generatePDF() {
   const { jsPDF } = window.jspdf;
 
