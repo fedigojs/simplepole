@@ -428,7 +428,7 @@
     "image": "/images/hoop/hoop-as.jpg"
   },
   {
-    "id": 5,
+    "id": 32,
     "code": "Кільце АБ",
     "name": " Місячний хлопчик",
     "tValue": "1",
@@ -441,7 +441,7 @@
     "image": "/images/hoop/hoop-ab.jpg"
   },
   {
-    "id": 32,
+    "id": 33,
     "code": "Кільце АД",
     "name": "Динамічна в підколінку",
     "tValue": "1",
@@ -453,7 +453,7 @@
     "image": "/images/hoop/hoop-ad.jpg"
   },
   {
-    "id": 33,
+    "id": 34,
     "code": "Кільце НГ",
     "name": " Шпагат з газелі",
     "tValue": "1",
@@ -466,7 +466,7 @@
     "image": "/images/hoop/hoop-ng.jpg"
   },
   {
-    "id": 34,
+    "id": 35,
     "code": "Кільце НС",
     "name": " Мексиканець",
     "tValue": "1",
@@ -480,7 +480,7 @@
     "image": "/images/hoop/hoop-ns.jpg"
   },
   {
-    "id": 35,
+    "id": 36,
     "code": "Кільце НБ",
     "name": " Баланс на плечах",
     "tValue": "1",
@@ -494,7 +494,7 @@
     "image": "/images/hoop/hoop-nb.jpg"
   },
   {
-    "id": 36,
+    "id": 37,
     "code": "Кільце НД",
     "name": "Стрибок з колін (сокира)",
     "tValue": "1",
@@ -505,7 +505,7 @@
     "image": "/images/hoop/hoop-nd.jpg"
   },
   {
-    "id": 37,
+    "id": 38,
     "code": "Кільце ПГ",
     "name": "Райська пташка",
     "tValue": "1",
@@ -519,7 +519,7 @@
     "image": "/images/hoop/hoop-pg.jpg"
   },
   {
-    "id": 38,
+    "id": 39,
     "code": "Кільце ПС",
     "name": "Вис на пʼятах",
     "tValue": "1",
@@ -533,7 +533,7 @@
     "image": "/images/hoop/hoop-ps.jpg"
   },
   {
-    "id": 39,
+    "id": 40,
     "code": "Кільце ПБ",
     "name": " Підйом в шоулдер",
     "tValue": "1",
@@ -547,7 +547,7 @@
     "image": "/images/hoop/hoop-pb.jpg"
   },
   {
-    "id": 40,
+    "id": 41,
     "code": "Кільце ПД",
     "name": "Роли на ліктях 3х",
     "tValue": "1",
@@ -558,7 +558,7 @@
     "image": "/images/hoop/hoop-pd.jpg"
   },
   {
-    "id": 41,
+    "id": 42,
     "code": "Кільце ЕГ",
     "name": "Павич",
     "tValue": "1",
@@ -571,7 +571,7 @@
     "image": "/images/hoop/hoop-eg.jpg"
   },
   {
-    "id": 42,
+    "id": 43,
     "code": "Кільце ЕС",
     "name": "Задня закладка",
     "tValue": "1",
@@ -585,7 +585,7 @@
     "image": "/images/hoop/hoop-es.jpg"
   },
   {
-    "id": 43,
+    "id": 44,
     "code": "Кільце ЕБ",
     "name": " Планка",
     "tValue": "1",
@@ -598,7 +598,7 @@
     "image": "/images/hoop/hoop-eb.jpg"
   },
   {
-    "id": 44,
+    "id": 45,
     "code": "Кільце ЕД",
     "name": " З колін у зворотній хват",
     "tValue": "1",
@@ -609,7 +609,7 @@
     "image": "/images/hoop/hoop-ed.jpg"
   },
   {
-    "id": 45,
+    "id": 46,
     "code": "Полотна ДГ",
     "name": " Голуб",
     "tValue": "1",
@@ -624,7 +624,7 @@
     "image": "/images/silk/silk-dg.jpg"
   },
   {
-    "id": 46,
+    "id": 47,
     "code": "Полотна ДC",
     "name": " Скорпіон",
     "tValue": "1",
@@ -638,7 +638,7 @@
     "image": "/images/silk/silk-ds.jpg"
   },
   {
-    "id": 47,
+    "id": 48,
     "code": "Полотна ДБ",
     "name": " Горизонтальний шпагат",
     "tValue": "1",
@@ -651,7 +651,7 @@
     "image": "/images/silk/silk-db.jpg"
   },
   {
-    "id": 48,
+    "id": 49,
     "code": "Полотна ДД",
     "name": " Замот на стегні",
     "tValue": "1",
@@ -662,7 +662,7 @@
     "image": "/images/silk/silk-dd.jpg"
   },
   {
-    "id": 49,
+    "id": 50,
     "code": "Полотна АГ",
     "name": " Балерина",
     "tValue": "1",
@@ -675,7 +675,7 @@
     "image": "/images/silk/silk-ag.jpg"
   },
   {
-    "id": 50,
+    "id": 51,
     "code": "Полотна АС",
     "name": " Прапорець",
     "tValue": "1",
@@ -689,7 +689,7 @@
     "image": "/images/silk/silk-as.jpg"
   },
   {
-    "id": 51,
+    "id": 52,
     "code": "Полотна АБ",
     "name": " Баланс",
     "tValue": "1",
@@ -703,7 +703,7 @@
     "image": "/images/silk/silk-ab.jpg"
   },
   {
-    "id": 52,
+    "id": 53,
     "code": "Полотна АД",
     "name": " Зрив зі скорпіона",
     "tValue": "1",
@@ -714,7 +714,7 @@
     "image": "/images/silk/silk-ad.jpg"
   },
   {
-    "id": 53,
+    "id": 54,
     "code": "Полотна НГ",
     "name": " Арбалет",
     "tValue": "1",
@@ -728,7 +728,7 @@
     "image": "/images/silk/silk-ng.jpg"
   },
   {
-    "id": 54,
+    "id": 55,
     "code": "Полотна НС",
     "name": " Чайка",
     "tValue": "1",
@@ -742,7 +742,7 @@
     "image": "/images/silk/silk-ns.jpg"
   },
   {
-    "id": 55,
+    "id": 56,
     "code": "Полотна НБ",
     "name": " Стійка на руці",
     "tValue": "1",
@@ -757,7 +757,7 @@
     "image": "/images/silk/silk-nb.jpg"
   },
   {
-    "id": 56,
+    "id": 57,
     "code": "Полотна НД",
     "name": " Розмот у відкритий хват",
     "tValue": "1",
@@ -770,7 +770,7 @@
     "image": "/images/silk/silk-nd.jpg"
   },
   {
-    "id": 57,
+    "id": 58,
     "code": "Полотна ПГ",
     "name": " Затяжка",
     "tValue": "1",
@@ -785,7 +785,7 @@
     "image": "/images/silk/silk-pg.jpg"
   },
   {
-    "id": 58,
+    "id": 59,
     "code": "Полотна ПС",
     "name": " Ігуана",
     "tValue": "1",
@@ -799,7 +799,7 @@
     "image": "/images/silk/silk-ps.jpg"
   },
   {
-    "id": 59,
+    "id": 60,
     "code": "Полотна ПБ",
     "name": " Крокодил",
     "tValue": "1",
@@ -813,7 +813,7 @@
     "image": "/images/silk/silk-pb.jpg"
   },
   {
-    "id": 60,
+    "id": 61,
     "code": "Полотна ПД",
     "name": " Перехват з переворотом корпуса",
     "tValue": "1",
@@ -824,7 +824,7 @@
     "image": "/images/silk/silk-pd.jpg"
   },
   {
-    "id": 61,
+    "id": 62,
     "code": "Полотна ЕГ",
     "name": " Затяжка з арбалета",
     "tValue": "1",
@@ -838,7 +838,7 @@
     "image": "/images/silk/silk-eg.jpg"
   },
   {
-    "id": 62,
+    "id": 63,
     "code": "Полотна ЕС",
     "name": " Перехід із передньої закладки в задню закладку",
     "tValue": "1",
@@ -852,7 +852,7 @@
     "image": "/images/silk/silk-es.jpg"
   },
   {
-    "id": 63,
+    "id": 64,
     "code": "Полотна ЕБ",
     "name": " Розʼїзд у баланс",
     "tValue": "1",
@@ -861,14 +861,14 @@
       "<p><b>Кінцеве положення:</b> баланс у шпагаті</p>",
       "<p><b>Замот:</b> стандартний замок</p>",
       "<p><b>Точки зчеплення:</b> щиколотки і стопи</p>",
-      "<p><b>Положення рук/хват:</b> руки не торкаються полотен</p>", 
+      "<p><b>Положення рук/хват:</b> руки не торкаються полотен</p>",
       "<p><b>Положення ніг:</b> розкриваються у шпагат 180°</p>",
       "<p><b>Утримання:</b> не менше 2 секунди</p>"
     ],
     "image": "/images/silk/silk-eb.jpg"
   },
   {
-    "id": 64,
+    "id": 65,
     "code": "Полотна ЕД",
     "name": " Перехват з вузької в широку складку",
     "tValue": "1",

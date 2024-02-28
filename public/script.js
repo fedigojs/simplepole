@@ -25,10 +25,10 @@ async function filterNamesByDirection() {
       filteredItems = items.filter((item) => item.id >= 1 && item.id <= 25);
       break;
     case "id2": // Кільце
-      filteredItems = items.filter((item) => item.id >= 26 && item.id <= 44);
+      filteredItems = items.filter((item) => item.id >= 26 && item.id <= 45);
       break;
     case "id3": // Полотна
-      filteredItems = items.filter((item) => item.id >= 45 && item.id <= 64);
+      filteredItems = items.filter((item) => item.id >= 46 && item.id <= 65);
       break;
     default:
       console.error("Невідомий напрямок:", selectedDirection);
