@@ -1,0 +1,21 @@
+#myTable th,
+#myTable td {
+  border: 1px solid #dee2e6; /* Установите цвет границы для вашего дизайна */
+  padding: 8px; /* Добавляет паддинг внутри ячеек */
+  text-align: left; /* Выравнивание текста в ячейках */
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #f2f2f2; /* Добавляет зебра-эффект для строк */
+}
+
+#myTable thead {
+  background-color: #666; /* Темный фон для заголовка таблицы */
+  color: white; /* Белый текст для заголовка таблицы */
+}
+
+#myTable {
+  width: 100%; /* Задает ширину таблицы */
+  border-collapse: collapse; /* Убирает двойные границы */
+  margin-top: 20px; /* Добавляет отступ сверху для таблицы */
+}
