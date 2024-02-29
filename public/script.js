@@ -1,6 +1,10 @@
 // script.js
 document.addEventListener("DOMContentLoaded", async function () {
   await filterNamesByDirection(); // Это заполнит nameSelector при загрузке
+
+  document
+    .getElementById("scategory")
+    .addEventListener("change", filterNamesByDirection);
   document
     .getElementById("direction")
     .addEventListener("change", filterNamesByDirection);
@@ -14,26 +18,29 @@ async function fetchJsonData() {
 // Фильтрация и обновление списка nameSelector на основе выбранного направления
 async function filterNamesByDirection() {
   const selectedDirection = document.getElementById("direction").value;
+  const selectedCategory = document.getElementById("scategory").value;
   const items = await fetchJsonData();
   const nameSelector = document.getElementById("nameSelector");
   nameSelector.innerHTML = ""; // Очистка текущих опций
 
-  let filteredItems;
-  // Определите промежутки ID для каждого направления
-  switch (selectedDirection) {
-    case "id1": // Пілон
-      filteredItems = items.filter((item) => item.id >= 1 && item.id <= 25);
-      break;
-    case "id2": // Кільце
-      filteredItems = items.filter((item) => item.id >= 26 && item.id <= 45);
-      break;
-    case "id3": // Полотна
-      filteredItems = items.filter((item) => item.id >= 46 && item.id <= 65);
-      break;
-    default:
-      console.error("Невідомий напрямок:", selectedDirection);
-      return;
-  }
+  // Сначала фильтруем по Розряду
+  let filteredByCategory = items.filter((item) => {
+    return selectedCategory ? item.scategory === selectedCategory : true;
+  });
+
+  // Затем фильтруем отфильтрованные элементы по Напрямку
+  let filteredItems = filteredByCategory.filter((item) => {
+    switch (selectedDirection) {
+      case "id1": // Пілон
+        return item.id >= 1 && item.id <= 25;
+      case "id2": // Кільце
+        return item.id >= 26 && item.id <= 45;
+      case "id3": // Полотна
+        return item.id >= 46 && item.id <= 65;
+      default:
+        return true; // Если направление не выбрано, не применяем фильтр по направлению
+    }
+  });
 
   // Заполнение выпадающего списка отфильтрованными позициями
   filteredItems.forEach((item) => {
